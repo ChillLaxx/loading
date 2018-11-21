@@ -6,7 +6,7 @@ var timer = setInterval(function () {
     if (per > 100) {
         $(".pageLoading").addClass("complete");
         setTimeout(function () {
-            $(".monsterText").html("We are<br>SQUARE<br>MONSTER!");
+            $(".monsterText").html("Welcome<br>APP<br>problem");
         }, 3000);
         clearInterval(timer);
     }
